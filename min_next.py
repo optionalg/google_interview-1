@@ -1,7 +1,7 @@
 from collections import defaultdict
 
-num1=2345678
-num2=3429
+num1=2241
+num2=123
 
 def convert2int(lst):
   return int(''.join(map(str,lst))) 
