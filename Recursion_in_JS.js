@@ -1,4 +1,5 @@
-//https://www.cs.cmu.edu/~yandongl/recursion_in_js.html
+//Recursion is hard in JavsScript
+//details see https://www.cs.cmu.edu/~yandongl/recursion_in_js.html
 function findParent(path, db, child, cb) {
   db.find({children:{$elemMatch:{id:child}}}).toArray(function (err, items) {
     var rs = [];

@@ -1,3 +1,9 @@
+/*
+  Tips:
+  1. Sticking to PriorityQueue's orignial purpose. Use it as is
+  2. When a pointer is null, don't add it back to queue
+  3. Then loop through the queue and finish the rest!
+*/
 import java.io.*;
 import java.util.*;
 
